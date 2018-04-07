@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MonsterActivity">
+
+    <world.ypc.hackthon.view.CircleImage
+        android:id="@+id/bg_color"
+        android:layout_width="900dp"
+        android:layout_height="900dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bg"
+        app:layout_constraintStart_toStartOf="@+id/bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/bg_color" />
+
+    <world.ypc.hackthon.view.CircleImage
+        android:id="@+id/bg_color7"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/piano7"
+        app:layout_constraintEnd_toEndOf="@+id/piano7"
+        app:layout_constraintStart_toStartOf="@+id/piano7"
+        app:layout_constraintTop_toTopOf="@+id/piano7"
+        app:srcCompat="@color/bg_color7" />
+
+    <world.ypc.hackthon.view.CircleImage
+        android:id="@+id/bg_color6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/piano6"
+        app:layout_constraintEnd_toStartOf="@+id/piano7"
+        app:layout_constraintStart_toStartOf="@+id/piano6"
+        app:layout_constraintTop_toTopOf="@+id/piano6"
+        app:srcCompat="@color/bg_color6" />
+
+    <world.ypc.hackthon.view.CircleImage
+        android:id="@+id/bg_color5"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/piano5"
+        app:layout_constraintEnd_toEndOf="@+id/piano5"
+        app:layout_constraintStart_toStartOf="@+id/piano5"
+        app:layout_constraintTop_toTopOf="@+id/piano5"
+        app:srcCompat="@color/bg_color5" />
+
+    <world.ypc.hackthon.view.CircleImage
+        android:id="@+id/bg_color4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/piano4"
+        app:layout_constraintEnd_toEndOf="@+id/piano4"
+        app:layout_constraintStart_toStartOf="@+id/piano4"
+        app:layout_constraintTop_toTopOf="@+id/piano4"
+        app:srcCompat="@color/bg_color4" />
+
+    <world.ypc.hackthon.view.CircleImage
+        android:id="@+id/bg_color3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/piano3"
+        app:layout_constraintEnd_toEndOf="@+id/piano3"
+        app:layout_constraintStart_toStartOf="@+id/piano3"
+        app:layout_constraintTop_toTopOf="@+id/piano3"
+        app:srcCompat="@color/bg_color3" />
+
+    <world.ypc.hackthon.view.CircleImage
+        android:id="@+id/bg_color2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/piano2"
+        app:layout_constraintEnd_toEndOf="@+id/piano2"
+        app:layout_constraintStart_toStartOf="@+id/piano2"
+        app:layout_constraintTop_toTopOf="@+id/piano2"
+        app:srcCompat="@color/bg_color2" />
+
+    <world.ypc.hackthon.view.CircleImage
+        android:id="@+id/bg_color1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/piano1"
+        app:layout_constraintEnd_toEndOf="@+id/piano1"
+        app:layout_constraintStart_toStartOf="@+id/piano1"
+        app:layout_constraintTop_toTopOf="@+id/piano1"
+        app:srcCompat="@color/bg_color1" />
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bg_color"
+        app:layout_constraintVertical_bias="0.85"
+        app:srcCompat="@drawable/monster_bg" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.942" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.075" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="59dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="578dp" />
+
+    <ImageView
+        android:id="@+id/piano1"
+        android:layout_width="71dp"
+        android:layout_height="0dp"
+        android:src="@drawable/monster_piano_1"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/piano2"
+        android:layout_width="71dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintStart_toEndOf="@+id/piano1"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:srcCompat="@drawable/monster_piano_2" />
+
+    <ImageView
+        android:id="@+id/piano3"
+        android:layout_width="71dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintStart_toEndOf="@+id/piano2"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:srcCompat="@drawable/monster_pinao_3" />
+
+    <ImageView
+        android:id="@+id/piano4"
+        android:layout_width="71dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/monster_piano_4"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintStart_toEndOf="@+id/piano3"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <ImageView
+        android:id="@+id/piano5"
+        android:layout_width="71dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintStart_toEndOf="@+id/piano4"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:srcCompat="@drawable/monster_piano_5" />
+
+    <ImageView
+        android:id="@+id/piano6"
+        android:layout_width="71dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintStart_toEndOf="@+id/piano5"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:srcCompat="@drawable/monster_piano_6" />
+
+    <ImageView
+        android:id="@+id/piano7"
+        android:layout_width="71dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toEndOf="@+id/piano6"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:srcCompat="@drawable/monster_piano_7" />
+
+    <ImageView
+        android:id="@+id/monster1"
+        android:layout_width="0dp"
+        android:layout_height="149dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/piano1"
+        app:layout_constraintEnd_toEndOf="@+id/piano1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:srcCompat="@drawable/monster1" />
+
+    <ImageView
+        android:id="@+id/monster2"
+        android:layout_width="118dp"
+        android:layout_height="89dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="49dp"
+        app:layout_constraintEnd_toEndOf="@+id/piano2"
+        app:layout_constraintStart_toStartOf="@+id/piano2"
+        app:layout_constraintTop_toTopOf="@+id/piano2"
+        app:srcCompat="@drawable/monster2" />
+
+    <ImageView
+        android:id="@+id/monster3"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/piano3"
+        app:layout_constraintEnd_toEndOf="@+id/piano3"
+        app:layout_constraintStart_toStartOf="@+id/piano3"
+        app:srcCompat="@drawable/monster3" />
+
+    <ImageView
+        android:id="@+id/monster4"
+        android:layout_width="104dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="49dp"
+        app:layout_constraintEnd_toEndOf="@+id/piano4"
+        app:layout_constraintStart_toStartOf="@+id/piano4"
+        app:layout_constraintTop_toTopOf="@+id/piano4"
+        app:srcCompat="@drawable/monster4" />
+
+    <ImageView
+        android:id="@+id/monster5"
+        android:layout_width="107dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="@+id/piano5"
+        app:layout_constraintStart_toStartOf="@+id/piano5"
+        app:srcCompat="@drawable/monster5" />
+
+    <ImageView
+        android:id="@+id/monster6"
+        android:layout_width="115dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintEnd_toEndOf="@+id/piano6"
+        app:layout_constraintStart_toStartOf="@+id/piano6"
+        app:layout_constraintTop_toTopOf="@+id/piano6"
+        app:srcCompat="@drawable/monster6" />
+
+    <ImageView
+        android:id="@+id/monster7"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/piano7"
+        app:layout_constraintEnd_toEndOf="@+id/piano7"
+        app:layout_constraintStart_toStartOf="@+id/piano7"
+        app:srcCompat="@drawable/monster7" />
+
+    <ImageView
+        android:id="@+id/end_light"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bg"
+        app:layout_constraintStart_toStartOf="@+id/bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/monster_end_light"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/end_person"
+        android:layout_width="406dp"
+        android:layout_height="313dp"
+        android:clickable="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bg"
+        app:layout_constraintStart_toStartOf="@+id/bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/monster_end_person"
+        tools:visibility="visible" />
+
+</android.support.constraint.ConstraintLayout>
